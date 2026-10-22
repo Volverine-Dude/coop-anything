@@ -7579,7 +7579,7 @@
   year: 2002
   engine: Stormfront Fusion (Xbox), static recompilation to PC (The Two Towers Recompiled, xboxrecomp)
   project: Two Towers couch co-op (on The Two Towers Recompiled)
-  url: https://github.com/Volverine-Dude/TooTawersRecomp
+  url: https://github.com/Volverine-Dude/TooTawersRecomp-coop
   other_urls:
   - https://github.com/cranebeaker/coop-anything/tree/main/games/lotr-two-towers
   - https://github.com/Gumpolas/TooTawersRecomp
@@ -7601,7 +7601,7 @@
     the story levels, with post-level stats and shops for both. Source only (MIT, a fork of the port), built from the
     player's own US retail game; tested with a 14-scenario bot suite (73 checks, all passing) on the port's 1.9.4.
   sources:
-  - https://github.com/Volverine-Dude/TooTawersRecomp
+  - https://github.com/Volverine-Dude/TooTawersRecomp-coop
   - https://github.com/cranebeaker/coop-anything/tree/main/games/lotr-two-towers
   - https://github.com/Gumpolas/TooTawersRecomp
   checked: '2026-10-21'

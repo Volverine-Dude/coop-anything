@@ -4,7 +4,7 @@
 |---|---|
 | Engine | Stormfront "Fusion" (Xbox), played on PC through the static recompilation [The Two Towers Recompiled](https://github.com/Gumpolas/TooTawersRecomp) v1.9.4 (xboxrecomp 0.12.0) |
 | Versions tested | US Xbox retail, `Default.xbe` SHA-256 `ae2d1b5304b3e9572339b693a6a45ad0869bdaeec89aae374b5c14feebbb8d30` (title 0x45410010, version 1), with the port's source at v1.9.4 (also v1.9.2) |
-| Projects | Couch co-op on top of the port: [Volverine-Dude/TooTawersRecomp](https://github.com/Volverine-Dude/TooTawersRecomp) (a fork of the port, MIT; see its `COOP.md`) |
+| Projects | Couch co-op on top of the port: [Volverine-Dude/TooTawersRecomp-coop](https://github.com/Volverine-Dude/TooTawersRecomp-coop) (a fork of the port, MIT; see its `COOP.md`) |
 | QA level | automated (a 14-scenario bot suite on the real game, 73 checks; see QA) |
 | Last updated | 2026-10-21 |
 
@@ -123,7 +123,7 @@ the frames themselves (checked by eye).
 ## How to play
 
 Build the fork from your own copy of the game, as the port: see its
-[COOP.md](https://github.com/Volverine-Dude/TooTawersRecomp/blob/main/COOP.md). The port's `generate.py` needs the US
+[COOP.md](https://github.com/Volverine-Dude/TooTawersRecomp-coop/blob/coop/COOP.md). The port's `generate.py` needs the US
 retail `Default.xbe` above. Never share built executables or generated code: they contain the game's code.
 
 ## Known issues

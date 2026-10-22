@@ -1,7 +1,7 @@
 # The Lord of the Rings: The Two Towers (2002, Xbox): co-op notes
 
 The findings and evidence behind couch co-op on The Two Towers Recompiled (code:
-[Volverine-Dude/TooTawersRecomp](https://github.com/Volverine-Dude/TooTawersRecomp), see its `COOP.md`). Two
+[Volverine-Dude/TooTawersRecomp-coop](https://github.com/Volverine-Dude/TooTawersRecomp-coop), see its `COOP.md`). Two
 players on one PC, one shared camera, one game process: no networking, so no desync.
 
 - Every address is an Xbox virtual address in the US retail `Default.xbe` (identity below).
