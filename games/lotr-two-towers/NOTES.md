@@ -701,7 +701,8 @@ An option that plays player 2 until there are proper controller settings for a s
   - off switches for each fix (`TT_COOP_NO...`), and research loggers (`TT_COOP_*LOG`).
 - `TT_SKIPMOVIES` (kernel_bridge.c): movie opens fail as missing, so the game skips them (but Weathertop waits for its
   first). `TT_SHOTS="ms:file,..."`: frame dumps timed from the launch, menus included.
-- The bot suite: 14 scenarios, 72 checks, in the fork's `tools/coop-bot/`.
+- The bot suite: 14 scenarios, 73 checks, in the fork's `tools/coop-bot/`. Last full run on the published build:
+  "73 passed, 0 failed of 73 checks in 14 scenarios" (2026-10-21, 24 min).
 
 ## 10. Playbook gaps found
 

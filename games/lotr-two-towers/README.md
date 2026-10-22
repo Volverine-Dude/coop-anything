@@ -5,7 +5,7 @@
 | Engine | Stormfront "Fusion" (Xbox), played on PC through the static recompilation [The Two Towers Recompiled](https://github.com/Gumpolas/TooTawersRecomp) v1.9.4 (xboxrecomp 0.12.0) |
 | Versions tested | US Xbox retail, `Default.xbe` SHA-256 `ae2d1b5304b3e9572339b693a6a45ad0869bdaeec89aae374b5c14feebbb8d30` (title 0x45410010, version 1), with the port's source at v1.9.4 (also v1.9.2) |
 | Projects | Couch co-op on top of the port: [Volverine-Dude/TooTawersRecomp](https://github.com/Volverine-Dude/TooTawersRecomp) (a fork of the port, MIT; see its `COOP.md`) |
-| QA level | automated (a 14-scenario bot suite on the real game, 72 checks; see QA) |
+| QA level | automated (a 14-scenario bot suite on the real game, 73 checks; see QA) |
 | Last updated | 2026-10-21 |
 
 ## Where things stand
@@ -111,10 +111,10 @@ The game's own frame dumps are kept for each run. It is in the fork, `tools/coop
 Every scenario also checks for no crash and a median frame rate of 50 or more. The test copy's settings and save are
 restored after each run.
 
-Last full run (port source 1.9.4 with the co-op changes, Direct3D 11, 2026-10-21):
+Last full run (port source 1.9.4 with the co-op changes as published, Direct3D 11, 2026-10-21):
 
 ```
-Co-op bot suite, tt-src-194, 2026-10-21 11:17, 24 min: 72 passed, 0 failed of 72 checks in 14 scenarios
+Co-op bot suite, 2026-10-21 20:19, 24 min: 73 passed, 0 failed of 73 checks in 14 scenarios
 ```
 
 Not covered by the suite: a second physical controller (the suite drives pad 2 by script), Vulkan, 4:3 screens, and
